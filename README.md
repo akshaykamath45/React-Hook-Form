@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# React Hook Forms and validation using YUP
+ Used <b>YUP</b> and yupResolver for validation of inputs.<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It checks whether the mail is correct or not,age should be minimum 18,Password and Confirm Password Field should match and should be minimum of 4 and maximum of 20 characters in length.It would display a `Error Message` if it does not satisfy any of the above conditions.
+<br>
+After clicking the Submit Button,`Right Click` --> `Inspect` -->`Console` at Bottom.
 
-## Available Scripts
+ 
+ <br>
+Attaching some sample screen shots :
 
-In the project directory, you can run:
+- <i>No Name</i><br>
+![image](https://user-images.githubusercontent.com/73344382/218867218-18f841fb-f5cf-4172-854d-b86144c40eea.png)
 
-### `npm start`
+- <i>Invalid Email</i> <br>
+![image](https://user-images.githubusercontent.com/73344382/218866398-acc91499-afd5-4ce2-b079-52aca5b87303.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- <i>Age is below 18,So it will show an error</i><br>
+![image](https://user-images.githubusercontent.com/73344382/218866317-ba95e569-9945-4b47-ab57-0ded36a2587c.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+- <i>Password is less than 4 character</i><br>
+![image](https://user-images.githubusercontent.com/73344382/218867504-e1073795-7446-491c-ae9e-ffdb3fdb9501.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- <i>Password is not matching</i><br>
+![image](https://user-images.githubusercontent.com/73344382/218866954-4ca98e76-7117-4ada-95e8-c3754b7cf7b6.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- <i>On Clicking Submit Button (`Right Click` --> `Inspect` -->`Console` at Bottom.)</i><br> 
+![image](https://user-images.githubusercontent.com/73344382/218867991-e67b6c81-c988-4dc2-a10a-36423941b178.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Working Link](https://github.com/akshaykamath45)
