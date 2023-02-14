@@ -8,7 +8,7 @@ export const Form = () => {
         email: yup.string().email().required(),
         age: yup.number().positive().integer().min(18).required(),
         password: yup.string().min(4).max(20).required(),
-        confirmPassword: yup.string().oneOf([yup.ref('password'),null]).required("Passwords does not match")
+        confirmPassword: yup.string().oneOf([yup.ref('password'),null],"Passwords does not match").required()
     });//Our schema/data will look like a object,Shape accepts an object as an argument.
 
     const {register,handleSubmit,formState:{errors}}=useForm({
